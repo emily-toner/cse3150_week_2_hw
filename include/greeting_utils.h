@@ -1,6 +1,6 @@
 #include <string>
-#ifndef GREETING_UTILS
-#define GREETING_UTILS
+#ifndef GREETINGUTILS
+#define GREETINGUTILS
 
 namespace GreetingUtils {
 	std::string create_message(const std::string& name);
