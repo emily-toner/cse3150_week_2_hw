@@ -11,7 +11,7 @@ namespace GreetingUtils {
 	char* format_as_c_string(const string& msg) {
 		int len = msg.size();
 		char* arr = new char[len + 1];
-		for (int i = 0; i < len; i++) {
+		for (int i = 0; i < len; ++i) {
 			arr[i] = msg[i];
 		}
 		arr[len] = '\0';
