@@ -5,7 +5,7 @@
 using std::cout, std::cin, std::endl,std::string;
 
 int main() {
-	cout << "Enter name: ";
+	cout << "Enter name: " << endl;
 	string name;
 	std::getline(cin, name);
 	string greeting = GreetingUtils::create_message(name);
